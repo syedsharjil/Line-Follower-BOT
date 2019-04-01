@@ -5,9 +5,14 @@ int M_B1 = 4; //motor b = -
 int M_B2 = 5; //motor b = +
 int S_B = 10;  //speed motor b
 
+int batgnd = 12; // ground for battery
 int R_S = A0; //sincer R
 int S_S = A1; //sincer S
 int L_S = A2; //sincer L
+
+int power1=8; // powerkey for sensors
+int power2=9; // powerkey for sensors
+
 
 void setup() 
 {
