@@ -22,14 +22,16 @@ pinMode(M_A1, OUTPUT);
 pinMode(M_A2, OUTPUT);
 pinMode(S_B, OUTPUT);
 pinMode(S_A, OUTPUT);
+pinMode (batgnd, OUTPUT);
 
 pinMode(L_S, INPUT);
 pinMode(S_S, INPUT);
 pinMode(R_S, INPUT);
-
+pinMode(power1,OUTPUT);
+pinMode(power2,OUTPUT);
 analogWrite(S_A, 150); 
 analogWrite(S_B, 150); 
-delay(200);
+delay(100);
 }
 void loop()
 {  
