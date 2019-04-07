@@ -31,7 +31,7 @@ pinMode(power1,OUTPUT);
 pinMode(power2,OUTPUT);
 analogWrite(S_A, 150); 
 analogWrite(S_B, 150); 
-delay(100);
+delay(200);
 }
 void loop()
 {  
